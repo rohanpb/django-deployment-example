@@ -1,0 +1,9 @@
+h1{
+    color: red;
+}
+h2{
+    color: grey;
+}
+table,tr,th{
+    border: 2px solid black;
+}

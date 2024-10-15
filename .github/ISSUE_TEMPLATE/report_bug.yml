@@ -2,17 +2,6 @@ name: Report bug
 description: Report an issue so we can improve
 labels: [triage, bug]
 body:
-  - type: markdown
-    attributes:
-  # Let's wait with this until adoption in other frameworks.
-  # - type: dropdown
-  #   attributes:
-  #     label: Framework
-  #     description: Which framework(s) is this issue related to?
-  #     multiple: true
-  #     options:
-  #       - "Next.js"
-  #       - "Other"
   - type: textarea
     attributes:
       label: Environment

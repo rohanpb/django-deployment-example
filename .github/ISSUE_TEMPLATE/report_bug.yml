@@ -40,7 +40,10 @@ body:
   - type: textarea
     attributes:
       label: Operating System and version for mobile devices (applicable to frontend repository only):
-      description: Example: iOS 17.0, Android 14
+      value:  
+        ```
+        Example: iOS 17.0, Android 14
+        ```
   - type: textarea
     attributes:
       label: Additional context:

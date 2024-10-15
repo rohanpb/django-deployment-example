@@ -58,4 +58,3 @@ body:
       description: Example: Any other relevant details, steps to reproduce the issue, or special conditions under which the problem occurs.
     validations:
       required: false
-  

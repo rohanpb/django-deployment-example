@@ -4,16 +4,6 @@ labels: [triage, bug]
 body:
   - type: markdown
     attributes:
-      value: |
-        **NOTE:** Issues that are potentially security related should be reported to us by following the [Security guidelines](https://next-auth.js.org/security) rather than on GitHub.
-        Thanks for taking the time to fill out this issue after reading/searching through the [documentation](https://next-auth.js.org) first!
-        Is this your first time contributing? Check out this video: https://www.youtube.com/watch?v=cuoNzXFLitc
-
-        ### Important :exclamation:
-
-        _Providing incorrect/insufficient information or skipping steps to reproduce the issue *will* result in closing the issue or converting to a discussion without further explanation._
-
-        If you have a generic question specific to your project, it is best asked in Discussions under the [Questions category](https://github.com/nextauthjs/next-auth/discussions/new?category=Questions)
   # Let's wait with this until adoption in other frameworks.
   # - type: dropdown
   #   attributes:

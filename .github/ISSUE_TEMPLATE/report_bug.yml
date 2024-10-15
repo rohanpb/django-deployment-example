@@ -7,7 +7,7 @@ body:
       label: Environment
       value: |
         ```
-        E.g.: Dev
+        Example: Dev
         ```
     validations:
       required: true
@@ -36,12 +36,16 @@ body:
   - type: textarea
     attributes:
       label: Browsers experiencing the issue (applicable to frontend repository only):
-      description: Example: Chrome 117.0, Firefox 118.1
+      value: |
+        ```
+        Example: iOS 17.0, Android 14
+        ```
   - type: textarea
     attributes:
       label: Operating System and version for mobile devices (applicable to frontend repository only):
-      value:  
+      value: |
         ```
+        Operating System and version:
         Example: iOS 17.0, Android 14
         ```
   - type: textarea

@@ -5,10 +5,6 @@ body:
   - type: textarea
     attributes:
       label: Environment
-      value: |
-        ```
-        Paste here
-        ```
     validations:
       required: true
   - type: input

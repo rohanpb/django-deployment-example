@@ -24,13 +24,19 @@ body:
   - type: textarea
     attributes:
       label: How to reproduce
-      description: Explain with clear steps how to reproduce the issue
+      value: |
+        ```
+        Explain with clear steps how to reproduce the issue
+        ```
     validations:
       required: true
   - type: textarea
     attributes:
       label: Expected behavior
-      description: Explain what should have happened instead of what actually happened
+      value: |
+        ```
+        Explain what should have happened instead of what actually happened
+        ```
     validations:
       required: true
   - type: textarea

@@ -40,6 +40,8 @@ body:
         ```
         Example: iOS 17.0, Android 14
         ```
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Operating System and version for mobile devices (applicable to frontend repository only):
@@ -48,9 +50,12 @@ body:
         Operating System and version:
         Example: iOS 17.0, Android 14
         ```
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: Additional context:
       description: Example: Any other relevant details, steps to reproduce the issue, or special conditions under which the problem occurs.
-
+    validations:
+      required: false
   

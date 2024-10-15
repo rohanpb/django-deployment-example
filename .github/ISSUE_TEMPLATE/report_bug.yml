@@ -35,7 +35,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Browsers experiencing the issue (applicable to frontend repository only):
+      label: Browsers experiencing the issue (applicable to frontend repository only)
       value: |
         ```
         Example: iOS 17.0, Android 14
@@ -44,7 +44,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Operating System and version for mobile devices (applicable to frontend repository only):
+      label: Operating System and version for mobile devices (applicable to frontend repository only)
       value: |
         ```
         Operating System and version:
@@ -54,7 +54,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Additional context:
+      label: Additional context
       Value: |
         ```
         Example: Any other relevant details, steps to reproduce the issue, or special conditions under which the problem occurs.

@@ -5,6 +5,10 @@ body:
   - type: textarea
     attributes:
       label: Environment
+      value: |
+        ```
+        E.g.: Dev
+        ```
     validations:
       required: true
   - type: input
@@ -29,3 +33,17 @@ body:
       description: Explain what should have happened instead of what actually happened
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Browsers experiencing the issue (applicable to frontend repository only):
+      description: Example: Chrome 117.0, Firefox 118.1
+  - type: textarea
+    attributes:
+      label: Operating System and version for mobile devices (applicable to frontend repository only):
+      description: Example: iOS 17.0, Android 14
+  - type: textarea
+    attributes:
+      label: Additional context:
+      description: Example: Any other relevant details, steps to reproduce the issue, or special conditions under which the problem occurs.
+
+  

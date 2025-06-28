@@ -34,6 +34,7 @@ Our primary goal is to make advanced trading strategies available to all crypto 
 v v
 
 +---------------------+ +----------------------+
+
 | Django Backend (DRF)| <-----> | Polygon RPC via |
 
 +---------------------+ | HTTPS Outcalls & |

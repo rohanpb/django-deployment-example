@@ -100,6 +100,8 @@ npm run generate
 
 # Start frontend dev server
 npm start
+
+```
 Access frontend at: http://localhost:8080
 
 Access replica at: http://localhost:4943?canisterId=<your_canister_id>
@@ -112,7 +114,7 @@ Set DFX_NETWORK=ic manually
 Override process.env.DFX_NETWORK in declarations if needed
 
 Optionally, set env_override in dfx.json
-```
+
 ---
 
 ## 🚀 Next Steps & Future Work

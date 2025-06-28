@@ -25,11 +25,17 @@ Our primary goal is to make advanced trading strategies available to all crypto 
 
 ```mermaid
 graph TD
-  A[Frontend (Next.js)] -->|DFX Actor Calls| B[ICP Canisters]
-  B -->|HTTPS Outcalls| C[Polygon RPC Node]
-  B -->|ECDSA Sign| D[Management Canister]
-  A -->|REST API| E[Django Backend]
+  A[Frontend (Next.js)]
+  B[ICP Canisters]
+  C[Polygon RPC Node]
+  D[Management Canister]
+  E[Django Backend]
+
+  A --> B
+  A --> E
   E --> B
+  B --> C
+  B --> D
 Frontend: Next.js
 
 Backend: Django REST Framework

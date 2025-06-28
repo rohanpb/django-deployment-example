@@ -102,6 +102,7 @@ npm run generate
 npm start
 
 ```
+---
 Access frontend at: http://localhost:8080
 
 Access replica at: http://localhost:4943?canisterId=<your_canister_id>

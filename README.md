@@ -112,7 +112,7 @@ Set DFX_NETWORK=ic manually
 Override process.env.DFX_NETWORK in declarations if needed
 
 Optionally, set env_override in dfx.json
-
+```
 ---
 
 ## 🚀 Next Steps & Future Work

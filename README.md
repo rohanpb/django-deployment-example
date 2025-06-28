@@ -103,18 +103,15 @@ npm start
 
 ```
 ---
-Access frontend at: http://localhost:8080
+- Access frontend at: http://localhost:8080
 
-Access replica at: http://localhost:4943?canisterId=<your_canister_id>
+- Access replica at: http://localhost:4943?canisterId=<your_canister_id>
 
-Frontend Environment Notes
+### Frontend Environment Notes
 If deploying frontend without DFX:
-
-Set DFX_NETWORK=ic manually
-
-Override process.env.DFX_NETWORK in declarations if needed
-
-Optionally, set env_override in dfx.json
+- Set DFX_NETWORK=ic manually
+- Override process.env.DFX_NETWORK in declarations if needed
+- Optionally, set env_override in dfx.json
 
 ---
 

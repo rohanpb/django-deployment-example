@@ -112,3 +112,20 @@ Set DFX_NETWORK=ic manually
 Override process.env.DFX_NETWORK in declarations if needed
 
 Optionally, set env_override in dfx.json
+
+---
+
+## 🚀 Next Steps & Future Work
+
+We continue to expand AbellFi’s capabilities with a focus on:
+
+- Enhancing cross-chain support to include more blockchain networks like Solana once Chain Fusion support matures  
+- Improving scalability and fault tolerance for larger user bases  
+- Adding advanced AI-driven strategy deployment and management features  
+- Strengthening security and compliance measures  
+
+Your feedback and collaboration are welcome as we build the future of decentralized crypto trading powered by ICP.
+
+---
+
+Thank you for exploring AbellFi. Together, we’re redefining the boundaries of decentralized finance.

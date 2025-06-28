@@ -24,10 +24,15 @@ Our primary goal is to make advanced trading strategies available to all crypto 
 ### ⚙️ Core Architecture
 
 +---------------------+ +----------------------+
+
 | Frontend (Next.js) | <-----> | ICP Canisters |
+
 +---------------------+ +----------------------+
+
 | |
+
 v v
+
 +---------------------+ +----------------------+
 | Django Backend (DRF)| <-----> | Polygon RPC via |
 +---------------------+ | HTTPS Outcalls & |
